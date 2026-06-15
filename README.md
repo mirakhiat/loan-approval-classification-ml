@@ -23,5 +23,8 @@ The Random Forest model achieved approximately 78.8% accuracy on the validation 
 
 The project is implemented in Python using Jupyter Notebook.
 
+Files included:
+- loan_approval_classification.ipynb
+- loan_approval_classification_report.pdf
 
-
+Note: The original dataset is not included in this repository due to its size.
