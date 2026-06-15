@@ -1,51 +1,28 @@
 # Loan Approval Classification using Machine Learning
 
-This project focuses on predicting whether a loan applicant will be approved or not using the Florida 2013 mortgage dataset.
+Machine Learning Final Project
 
-## Overview
+By: Mira Hayat & Kamelia Atwan
 
-The project follows a complete machine learning workflow:
+Done as the final project for an Intro to Machine Learning course at Tel Aviv University.
 
-- Data exploration and visualization
-- Missing value handling
-- Outlier treatment using IQR capping
-- Feature normalization and scaling
-- One-Hot Encoding of categorical variables
-- Feature selection
-- Model training and evaluation
+This project focuses on building a binary classification model based on the Florida 2013 mortgage dataset. The goal is to predict whether a loan applicant will be approved or not, based on various personal, financial, and application-specific features. The dataset contains both numerical and categorical variables, some of which are anonymized.
 
-## Models Used
+The project includes exploratory data analysis, data preprocessing, feature engineering, model training, evaluation, and interpretation.
 
-- Logistic Regression
-- K-Nearest Neighbors (KNN)
-- Random Forest
-- Multi-Layer Perceptron (MLP)
-- XGBoost
+Models used:
 
-## Results
+* Logistic Regression
+* K-Nearest Neighbors (KNN)
+* Random Forest
+* Multi-Layer Perceptron (MLP)
+* XGBoost
 
-The models were evaluated using:
+The models were evaluated using Accuracy, ROC Curves, AUC Scores, Confusion Matrices, and K-Fold Cross Validation.
 
-- Accuracy
-- ROC Curve
-- AUC Score
-- Confusion Matrix
-- K-Fold Cross Validation
+The Random Forest model achieved approximately 78.8% accuracy on the validation dataset.
 
-The Random Forest model achieved approximately 78.8% accuracy on the validation dataset. :contentReference[oaicite:0]{index=0}
+The project is implemented in Python using Jupyter Notebook.
 
-## Files
 
-- `loan_approval_classification.ipynb` — Complete project notebook
-- `loan_approval_classification_report.pdf` — Detailed project report
 
-## Dataset
-
-The original dataset is not included in this repository due to its size.
-
-The project was developed using the Florida 2013 mortgage dataset.
-
-## Authors
-
-- Mira Hayat
-- Kamelia Atwan
