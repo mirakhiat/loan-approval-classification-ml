@@ -2,6 +2,7 @@
 
 Machine Learning Final Project
 
+By: Mira Hayat & Kamelia Atwan
 
 Done as the final project for an Intro to Machine Learning course at Tel Aviv University.
 
@@ -19,12 +20,14 @@ Models used:
 
 The models were evaluated using Accuracy, ROC Curves, AUC Scores, Confusion Matrices, and K-Fold Cross Validation.
 
-The Random Forest model achieved approximately 78.8% accuracy on the validation dataset.
+Several machine learning models were compared throughout the project. Among the evaluated models, MLP achieved the highest validation accuracy (81.4%), while Random Forest also demonstrated strong performance with a validation accuracy of 80.5% and a test AUC score of approximately 0.875.
 
 The project is implemented in Python using Jupyter Notebook.
 
 Files included:
-- loan_approval_classification.ipynb
-- loan_approval_classification_report.pdf
+
+* loan_approval_classification.ipynb
+* loan_approval_classification_report.pdf
 
 Note: The original dataset is not included in this repository due to its size.
+
