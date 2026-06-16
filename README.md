@@ -2,8 +2,6 @@
 
 Machine Learning Final Project
 
-By: Mira Hayat & Kamelia Atwan
-
 Done as the final project for an Intro to Machine Learning course at Tel Aviv University.
 
 This project focuses on building a binary classification model based on the Florida 2013 mortgage dataset. The goal is to predict whether a loan applicant will be approved or not, based on various personal, financial, and application-specific features. The dataset contains both numerical and categorical variables, some of which are anonymized.
